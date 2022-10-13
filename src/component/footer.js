@@ -21,7 +21,7 @@ const Footer = () => {
                         TEL : 031-111-1234 C.P : 010-1234-5678
                     </address>
                     <p>
-                        © 2022 SMU IF. Image Fake.
+                        Â© 2022 SMU IF. Image Fake.
                     </p>
                 </div>
             </div>
