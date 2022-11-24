@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Footer from "./component/footer";
 import Header from "./component/header";
+<<<<<<< HEAD
 import Main from "./component/main";
+=======
+>>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
 import UploadImageForm from './component/UploadImageForm';
 import { Container } from "reactstrap";
 
@@ -26,6 +29,7 @@ class App extends Component {
   
   render() {
     return (
+<<<<<<< HEAD
       <><Header />
       <Container style={{ minHeight:"82vh" }}>
 
@@ -44,6 +48,22 @@ class App extends Component {
         </Container> 
        
       <Footer /></>
+=======
+     <>
+        <Header/>
+        <Container style={{margin:"0px"}}>
+          <Container style={{ minHeight:"5vh" }}></Container>   
+          <Container style={{ minHeight:"20vh" }}>
+            <UploadImageForm post = {this.props.post}
+                        resetState={this.props.resetState}
+                        toggle={this.toggle}
+            ></UploadImageForm>
+          </Container> 
+          <Container style={{ minHeight:"5vh" }}></Container> 
+        </Container>
+        <Footer />
+      </>
+>>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
           );
   }
 }

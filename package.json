@@ -8,11 +8,18 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.1",
+<<<<<<< HEAD
     "global": "^4.4.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
+=======
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+>>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
     "reactstrap": "^9.1.4",
     "web-vitals": "^2.1.4"
   },

@@ -13,7 +13,11 @@ const Header = () => {
               width="45"
               height="45"
             />{' '}
+<<<<<<< HEAD
             Image Fake</a></h1>
+=======
+            Image Forgery</a></h1>
+>>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
           
             <ul id="gnb">
                 <li><a href="#">GALLERY</a></li>
