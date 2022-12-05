@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SeoulNamsanM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.container {
+    min-height: 100%;
+    text-align: center;
+    padding: 90px 20px 50px 0px;
+    
+}
+
+ul, li, h2, p{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-align: center;
+}
+
+div {
+    margin:0;
+    padding:0;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    
+}
+
+img {
+    margin-bottom: 35px;
+}
+
+.title {
+    position: relative;
+    font-family: 'Happiness-Sans-Title';
+    display: block;
+    left: 600px;
+    padding:0px;
+    left:0px;
+
+    margin-bottom: 35px;
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s;
+}
+
+.inst {
+    position: relative;
+    font-family: 'SeoulNamsanM';
+    font-size: 18px;
+    display: block;
+    line-height: 34px;
+    letter-spacing: -.5px;
+    right:0px;
+
+    margin-bottom: 35px;
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s;
+} 
+
+.title+.inst{
+    margin: 20px;
+}
+
+.thick+.context{
+    margin: 20px;
+}
+
+.service_list{
+    display: inline-block;
+    margin-top:100px;
+}
+
+.context {
+    font-family: 'SeoulNamsanM';
+    font-size: 17px;
+    letter-spacing: -.5px;
+}
+
+.thick {
+    font-family: 'Happiness-Sans-Title';
+    font-size: 20px;
+}
+
+.Tech_feature01{
+    position: relative;
+    right: 220px;
+    margin-bottom: 35px;
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s;
+}
+
+.Tech_feature02{
+    position: relative;
+    right: 50px;
+    margin-bottom: 35px;
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s;
+}
+
+.Tech_feature03{
+    position: relative;
+    left: 150px;
+    margin-bottom: 35px;
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s;
+}

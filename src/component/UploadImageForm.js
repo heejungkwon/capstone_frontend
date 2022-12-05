@@ -1,9 +1,5 @@
 import React, {useState} from "react";
-<<<<<<< HEAD
-import { Form, Input, Button, Label } from "reactstrap";
-=======
 import { Form, Input, Button, Label, Container } from "reactstrap";
->>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
 import Stack from 'react-bootstrap/Stack'
 import axios from "axios";
 import './UploadImageForm.css'
@@ -45,11 +41,6 @@ function UploadImageForm() {
       }
   })
   .then((response)=>{
-<<<<<<< HEAD
-    console.log( response.data['heatmap'])
-    setText(JSON.stringify(response.data['result']));
-    setHeatmap(response.data['heatmap'])
-=======
     var obj = JSON.stringify(response.data['result']); 
 	  console.log(obj); 
 	  var jsonObj = JSON.parse(obj);
@@ -59,7 +50,6 @@ function UploadImageForm() {
       setText(jsonObj.proba+"% Not forgery image.")
     }
     setHeatmap(response.data['heatmap']);
->>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
   })
   .catch((Error)=>{console.log(Error)})})   
   }
@@ -77,36 +67,6 @@ function UploadImageForm() {
     <>
       <Form onSubmit={uploadModule}>
         <div>
-<<<<<<< HEAD
-          {fileImage && (
-            <img
-              alt="sample"
-              src={fileImage}
-              style={{margin:"auto"}}
-              />
-          )}
-            <Stack direction="horizontal" gap={3}>
-            <Input 
-              id="imgUpload"
-              type="file"
-              accept="image/*"
-              onChange={saveFileImage}
-              placeholder="Your image"
-              title="FILE"
-              hidden={true}
-            />
-            <Label for="imgUpload" className="Button">Select FILE</Label>
-            <Button className="btn-secondary" type="submit">Send</Button>
-            <Button color="danger" type="reset" onClick={() => deleteFileImage()}>Reset</Button>
-            </Stack>
-          </div>
-        </Form>
-      <h1>{text}</h1>
-      
-      <div>
-        <img src ={heat}></img>
-        </div>
-=======
             <Stack direction="horizontal" gap={3}>
               <Stack direction="vertical" gap={2}>
                 <Container style={{minHeight:"40vh"}}>
@@ -148,7 +108,6 @@ function UploadImageForm() {
       
       
      
->>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
     </>
     );
 }

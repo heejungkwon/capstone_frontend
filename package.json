@@ -6,21 +6,23 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@uit/glitch-image": "^0.0.11",
     "axios": "^0.27.2",
-    "bootstrap": "^5.2.1",
-<<<<<<< HEAD
+    "bootstrap": "^5.2.3",
     "global": "^4.4.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.5.0",
+    "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^4.6.0",
+    "react-image-glitch": "^0.1.3",
+    "react-native": "^0.70.6",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "^5.0.1",
-=======
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
->>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
+    "react-scroll": "^1.8.8",
     "reactstrap": "^9.1.4",
+    "rn-glitch-effect": "^1.1.0",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

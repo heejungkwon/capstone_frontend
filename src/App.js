@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Footer from "./component/footer";
 import Header from "./component/header";
-<<<<<<< HEAD
-import Main from "./component/main";
-=======
->>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
-import UploadImageForm from './component/UploadImageForm';
+import Service from "./component/service";
+// import UploadImageForm from './component/UploadImageForm';
+import Dropzone from './component/tt';
+import Banner from './component/banner';
+import Tech from './component/tech';
 import { Container } from "reactstrap";
 
 import './App.css';
@@ -29,41 +29,20 @@ class App extends Component {
   
   render() {
     return (
-<<<<<<< HEAD
-      <><Header />
-      <Container style={{ minHeight:"82vh" }}>
-
-        {/* post 변수에 전역변수 this.state.posts 저장 후 Main의 props변수에 전달 */}
-        <Main post = {this.state.posts}></Main>
-
-      </Container>
-
-       <Container>
-        <UploadImageForm post = {this.props.post}
-                        resetState={this.props.resetState}
-                        toggle={this.toggle}
-
-        ></UploadImageForm>
-
-        </Container> 
-       
-      <Footer /></>
-=======
-     <>
+      <>
+       <Banner />
         <Header/>
-        <Container style={{margin:"0px"}}>
-          <Container style={{ minHeight:"5vh" }}></Container>   
-          <Container style={{ minHeight:"20vh" }}>
-            <UploadImageForm post = {this.props.post}
-                        resetState={this.props.resetState}
-                        toggle={this.toggle}
-            ></UploadImageForm>
-          </Container> 
-          <Container style={{ minHeight:"5vh" }}></Container> 
+        <Container style={{margin:"10px"}}>
+          <Dropzone/>
         </Container>
-        <Footer />
+        <Container style={{display: 'flex',justifyContent: 'center',alignItems: 'center',}}>
+          <Service/>
+          <Tech/>
+        </Container> 
+      
+      <Footer/>
+
       </>
->>>>>>> 14666f2f63da9f932232555ebb2831f7329f1fc4
           );
   }
 }
